@@ -67,10 +67,14 @@ set wildmode=list:longest
 set wildignore=*.docx,*.jpg.*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 
-" PLUGINS -------------------------------------------------------------------
+" PLUGINS -------------------------------------------------
 
-" Plugin code goes here.
+call plug#begin('~/.vim/plugged')
 
+    Plug 'dense-analysis/ale'
+    Plug 'preservim/nerdtree'
+
+call plug#end()
 " }}}
 
 
